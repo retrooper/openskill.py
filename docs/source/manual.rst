@@ -84,7 +84,7 @@ enable this feature for our purposes.
 Let's now get the object representing a single player by calling the :code:`rating` method
 on the model. This method returns a :py:class:`PlackettLuceRating <openskill.models.weng_lin.plackett_luce.PlackettLuceRating>` object for which you can set your own
 values. Since we are using the default values, each player will also start with those values. We can also set a optional name.
-It can anything, an ID, a username, anything. It's just a way to identify the player.
+It can be anything, an ID, a username, anything. It's just a way to identify the player.
 
 .. code-block:: python
 
